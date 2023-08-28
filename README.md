@@ -10,11 +10,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-*Irene Aparecida Couto Ferraz
-*Maria de Lourdes Monteiro da Silva
-*Matheus Soares da Silva
-*Raquel Nonato Silva
-*Talita Fernandes Silva
+* Irene Aparecida Couto Ferraz
+* Maria de Lourdes Monteiro da Silva
+* Matheus Soares da Silva
+* Raquel Nonato Silva
+* Talita Fernandes Silva
 
 ## Orientador
 
