@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# ORGANIZER
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO DE DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
 
-`SEMESTRE`
+`2° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*Irene Aparecida Couto Ferraz
+*Maria de Lourdes Monteiro da Silva
+*Matheus Soares da Silva
+*Raquel Nonato Silva
+*Talita Fernandes Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
