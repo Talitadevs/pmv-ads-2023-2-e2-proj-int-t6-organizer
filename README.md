@@ -168,7 +168,122 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 </tr>
 </table>
 
+### Requisitos do Projeto 
 
+&nbsp;&nbsp; O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
+#### Requisitos Funcionais 
+
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
+<table border="1" cellspacing="1" cellpadding="1" style="border: thin solid black;">
+
+<tr>
+	<td>ID</td>
+	<td>Descrição</td>
+	<td>Prioridade</td>
+</tr>
+	
+<tr>
+	<td>RF-01 &nbsp; </td>
+	<td>Gerenciar o acesso do usuário</td>
+	<td>Alta</td>
+</tr>
+	
+<tr>
+	<td>RF-02 &nbsp; </td>
+	<td>Gerenciar metas</td>
+	<td>Alta</td>
+</tr>
+	
+<tr>
+	<td>RF-03 &nbsp; </td>
+	<td>Gerenciar tarefas</td>
+	<td>Alta</td>
+</tr>
+	
+<tr>
+	<td>RF-04 &nbsp; </td>
+	<td>O sistema deve permitir o usuário atualizar o status da tarefa</td>
+	<td>Alta</td>
+</tr>
+	
+<tr>
+	<td>RF-05 &nbsp; </td>
+	<td>O sistema deve emitir o status atual da meta</td>
+	<td>Baixa</td>
+</tr>
+
+<tr>
+	<td>RF-06 &nbsp; </td>
+	<td>O sistema deve gerar relatórios com as metas e tarefas cadastradas</td>
+	<td>Média</td>
+</tr>
+
+<tr>
+	<td>RF-07 &nbsp; </td>
+	<td>O sistema deve gerar relatórios das metas e tarefas concluídas<d>
+	<td>Média</td>
+</tr>
+</table>
+
+#### Requisitos não funcionais 
+
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
+
+<table border="1" cellspacing="1" cellpadding="1" style="border: thin solid black;">
+
+<tr>
+	<td>ID</td>
+	<td>Descrição</td>
+	<td>Prioridade</td>
+</tr>
+
+<tr>
+	<td>RNF-01 &nbsp; </td>
+	<td>O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages)</td>
+	<td>Alta</td>
+</tr>
+	
+<tr>
+	<td>RNF-02 &nbsp; </br> </td>
+	<td>O site deve ter bom nível de contraste entre os elementos da tela em conformidade</td>
+	<td>Média</td>
+	</tr>
+	
+<tr>
+	<td>RNF-03 &nbsp; </td>
+	<td>O site deve ser compatível com os principais navegadores do mercado (Google Chrome e Microsoft Edge)</td>
+	<td>Alta </td>
+</tr>
+</table>
+
+#### Restrições
+
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+
+<table border="1" cellspacing="1" cellpadding="1" style="border: thin solid black;">
+
+<tr>
+	<td>ID</td>
+	<td>Descrição</td>
+</tr>
+
+<tr>
+	<td>RNF-01 &nbsp; </td>
+	<td>O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 06/12/2023</td>
+</tr>
+	
+<tr>
+	<td>RNF-02 &nbsp; </br> </td>
+	<td>O projeto deve se restringir às tecnologias de backend e frontend</td>
+	</tr>
+	
+<tr>
+	<td>RNF-03 &nbsp; </td>
+	<td>A equipe não pode subcontratar o desenvolvimento do trabalho</td>
+</tr>
+</table>
 
 
 
