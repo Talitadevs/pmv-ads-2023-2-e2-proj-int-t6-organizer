@@ -318,7 +318,7 @@ Figura 1 - Diagrama de caso de uso
 ## <a name="apresentacao">Apresentação</a>
 
 ### <a name="apresentacao">Apresentação da solução</a>
-O vídeo localizado na pasta "presentation", apresenta de forma sintetizada o problema e a proposta de solução do sistema. Endereço:
+O vídeo localizado na pasta "presentation", demonstra de forma sintetizada o problema e a proposta de solução do sistema. Endereço:
  * Video: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/presentation/organizerVideo.mp4
 
 ## <a name="referencia">Referências</a>
