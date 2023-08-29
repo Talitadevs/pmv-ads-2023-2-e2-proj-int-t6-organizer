@@ -33,8 +33,12 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 # ÍNDICE
 
 <ol>
+	
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacao"> Documentação</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacaocontexto"> Documentação de Contexto</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#especificacao"> Especificação do Projeto</a></li>
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#codigo"> Código</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#metodologia"> Metodologia</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#interface"> Projeto de Interface</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#arquitetura"> Arquitetura da Solução</a></li>
@@ -44,7 +48,9 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registrosoftware"> Registro de Testes de Software</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planoteste"> Plano de Testes de Usabilidade</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registroteste"> Registro de Testes de Usabilidade</a></li>
+
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#apresentacao"> Apresentação do Projeto</a></li>
+
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#referencia"> Referências</a></li>
 </ol>
 
@@ -287,6 +293,8 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ### Diagramas de Casos de Uso
 
+O diagrama de caso de uso está representado na figura 1, a seguir:
+
 <div align="center">
 
 Figura 1 - Diagrama de caso de uso
@@ -295,8 +303,7 @@ Figura 1 - Diagrama de caso de uso
 
 </div>
 
-
-
+## <a name="codigo">Código</a>
 
 ### <a name="metodologia">Metodologia</a>
 ### <a name="interface">Projeto de Interface</a>
@@ -307,18 +314,16 @@ Figura 1 - Diagrama de caso de uso
 ### <a name="registrosoftware">Registro de Testes de Software</a>
 ### <a name="planoteste">Plano de Testes de Usabilidade</a>
 ### <a name="registroteste">Registro de Testes de Usabilidade</a>
-### <a name="apresentacao">Apresentação do Projeto</a>
-### <a name="referencia">Referências</a>
 
+## <a name="apresentacao">Apresentação</a>
 
+### <a name="apresentacao">Apresentação da solução</a>
+Para a apresentação do problema e proposta de solução do projeto, foi criado o video em formato mp4 m alocados na pasta "presentation" conforme soicitado. Endereços:
 
+O vídeo localizado na pasta "presentation", apresenta de forma sintetizada o problema e a proposta de solução do sistema. Endereço:
+ * Video: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/presentation/organizerVideo.mp4
 
+## <a name="referencia">Referências</a>
+A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
-
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+* PMI (Project Management Institute). (2017). Research on global project management. Disponível em: www.pmi.org/-/media/pmi/documents/public/pdf/learning/thought-leadership/pulse/pulse-of-the-profession-2017.pdf?rev=fd357a954d9446fdbf423e510cffa1df&sc_lang_temp=pt-PT. Acesso em: 23 ago.2023.
