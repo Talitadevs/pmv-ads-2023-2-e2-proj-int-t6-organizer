@@ -318,8 +318,6 @@ Figura 1 - Diagrama de caso de uso
 ## <a name="apresentacao">Apresentação</a>
 
 ### <a name="apresentacao">Apresentação da solução</a>
-Para a apresentação do problema e proposta de solução do projeto, foi criado o video em formato mp4 m alocados na pasta "presentation" conforme soicitado. Endereços:
-
 O vídeo localizado na pasta "presentation", apresenta de forma sintetizada o problema e a proposta de solução do sistema. Endereço:
  * Video: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/presentation/organizerVideo.mp4
 
