@@ -285,6 +285,17 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 </tr>
 </table>
 
+### Diagramas de Casos de Uso
+
+<div align="center">
+
+Figura 1 - Diagrama de caso de uso
+
+![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/src/img/Diagrma_Caso_de_Uso.png)
+
+</div>
+
+
 
 
 ### <a name="metodologia">Metodologia</a>
