@@ -33,19 +33,19 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 # ÍNDICE
 
 <ol>
-<li><a href="docs/01-Documentação de Contexto.md#documentacaocontexto"> Documentação de Contexto</a></li>
-<li><a href="docs/02-Especificação do Projeto.md#especificacao"> Especificação do Projeto</a></li>
-<li><a href="docs/03-Metodologia.md#metodologia"> Metodologia</a></li>
-<li><a href="docs/04-Projeto de Interface.md#interface"> Projeto de Interface</a></li>
-<li><a href="docs/05-Arquitetura da Solução.md#arquitetura"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template Padrão da Aplicação.md#template"> Template Padrão da Aplicação</a></li>
-<li><a href="docs/07-Programação de Funcionalidades.md#funcionalidade"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Plano de Testes de Software.md#planosoftware"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Software.md#registrosoftware"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md#planoteste"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md#registroteste"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md#apresentacao"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md#referencia"> Referências</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacaocontexto"> Documentação de Contexto</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#especificacao"> Especificação do Projeto</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#metodologia"> Metodologia</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#interface"> Projeto de Interface</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#arquitetura"> Arquitetura da Solução</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#template"> Template Padrão da Aplicação</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#funcionalidade"> Programação de Funcionalidades</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planosoftware"> Plano de Testes de Software</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registrosoftware"> Registro de Testes de Software</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planoteste"> Plano de Testes de Usabilidade</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registroteste"> Registro de Testes de Usabilidade</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#apresentacao"> Apresentação do Projeto</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#referencia"> Referências</a></li>
 </ol>
 
 ## <a name="documentacao">Documentação</a>
