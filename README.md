@@ -68,7 +68,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 ### Problema
 
-&nbsp;&nbsp; Conforme as informações apresentadas, a ferramenta de gestão de tarefas visa solucionar a complexidade decorrente da busca contínua por produtividade diante das crescentes demandas pessoais, profissionais e acadêmicas. Seu propósito é permitir gerenciamento eficaz das tarefas, capacitando os usuários a otimizar seu tempo, focar nas atividades relevantes e atingir metas de forma mais eficiente.
+&nbsp;&nbsp; Conforme as informações apresentadas, a ferramenta de gestão de tarefas visa solucionar a complexidade decorrente da busca contínua por produtividade diante das crescentes demandas pessoais, profissionais e acadêmicas. Seu propósito é permitir o gerenciamento eficaz das tarefas, capacitando os usuários a otimizar seu tempo, focar nas atividades relevantes e atingir metas de forma mais eficiente.
 
 ### Objetivo
 
