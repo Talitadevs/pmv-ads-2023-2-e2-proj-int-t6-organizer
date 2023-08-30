@@ -6,7 +6,7 @@
 
 `2° SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto visa desenvolver um gerenciador de tarefas simples, prático e útil, focado em ajudar as pessoas a organizarem suas atividades.
 
 ## Integrantes
 
