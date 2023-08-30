@@ -117,7 +117,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 * Idade: 40 anos
 * Ocupação: Psicóloga Clínica
 * Relação com a tecnologia: Sofia tem uma relação moderada com a tecnologia. Ela utiliza aplicativos de comunicação e algumas ferramentas profissionais em seu trabalho, mas não é uma especialista em tecnologia. Ela está disposta a aprender novas ferramentas que possam melhorar sua produtividade. 
-* O que ela procura:Sofia procura um aplicativo de gerenciamento de tarefas e metas que possa auxiliá-la em sua prática clínica e também em sua vida pessoal. Ela tem uma agenda variada, com sessões de terapia, administração de sua clínica, atividades de auto-cuidado e tempo com a família.
+* O que ela procura: Sofia procura um aplicativo de gerenciamento de tarefas e metas que possa auxiliá-la em sua prática clínica e também em sua vida pessoal. Ela tem uma agenda variada, com sessões de terapia, administração de sua clínica, atividades de auto-cuidado e tempo com a família.
 
 ### Histórias de usuários 
 
