@@ -54,7 +54,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#referencia"> Referências</a></li>
 </ol>
 
-## <a name="documentacao">Doccumentação</a>
+## <a name="documentacao">Documentação</a>
 
 ### <a name="documentacaocontexto">Documentaçãoo de Contexto</a>
 
