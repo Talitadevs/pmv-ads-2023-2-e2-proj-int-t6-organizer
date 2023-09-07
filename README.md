@@ -310,9 +310,39 @@ Figura 1 - Diagrama de caso de uso
 
 ### <a name="modelodados">Modelo de Dados</a>
 
+O modelo de dados desempenha um papel fundamental no projeto de sistemas de banco de dados, facilitando a compreensão e a representação dos dados. Neste contexto, exploraremos o Modelo Entidade-Relacionamento (ER), examinando sua aplicação tanto no Projeto Conceitual, que foca na modelagem abstrata de conceitos de negócios, quanto no Projeto da Base de Dados, que se concentra na implementação técnica desses conceitos em sistemas de gerenciamento de banco de dados.
+
 #### <a name="merconceitual">Modelo Entidade Relacionamento - Projeto Conceitual</a>
 
+No Modelo Entidade Relacionamento (Conceitual) a seguir, exploraremos como o modelo ER é aplicado de forma conceitual para representar as entidades, atributos e relacionamentos essenciais deste sistema de gerenciamento de tarefas, fornecendo uma visão abstrata e clara de sua estrutura de dados.
+
 #### <a name="projetobd">Projeto da Base de Dados</a>
+
+Após termos definido o Modelo Entidade-Relacionamento no Projeto Conceitual, agora vamos detalhar como esse modelo é transformado em uma implementação prática e concreta, considerando os aspectos técnicos, escolhas de SGBD e otimização de desempenho, a fim de criar a estrutura de armazenamento de dados eficiente para nosso gerenciador de tarefas.
+
+##### Entidades
+
+* Usuários:
+** ID (Chave Primária): Identificador único do usuário.
+** Nome: Nome do usuário.
+** Email: Endereço de email do usuário.
+** Senha: Senha de acesso ao sistema.
+** Data de Registro: Data de registro do usuário no sistema.
+
+* Metas:
+** ID (Chave Primária): Identificador único da meta.
+** Nome: Nome da meta.
+** Data de Início: Data de início planejada para a meta.
+** Data de Conclusão: Data de conclusão planejada para a meta.
+** Status: Estado atual da meta (por exemplo, em andamento, concluída, etc.).
+** ID_Usuário (Chave Estrangeira): Chave estrangeira que associa a meta a um usuário.
+
+* Tarefas:
+** ID (Chave Primária): Identificador único da tarefa.
+** Nome: Nome da tarefa.
+** Data de Vencimento: Data limite para a conclusão da tarefa.
+** Status: Estado atual da tarefa (por exemplo, pendente, concluída, etc.).
+** ID_Meta (Chave Estrangeira): Chave estrangeira que associa a tarefa a uma meta.
 
 ### <a name="interface">Projeto de Interface</a>
 ### <a name="arquitetura">Arquitetura da Solução</a>
