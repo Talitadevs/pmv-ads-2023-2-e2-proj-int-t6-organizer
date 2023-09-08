@@ -35,19 +35,27 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <ol>
 	
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacao"> Documentação</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacaocontexto"> Documentação de Contexto</a></li>
+
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#especificacao"> Especificação do Projeto</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#codigo"> Código</a></li>
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#analise"> Análise</a></li>
+
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#metodologia"> Metodologia</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#modelodados"> Análise</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#interface"> Projeto de Interface</a></li>
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#projetosolucao"> Projeto da Solução</a></li>
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planoteste"> Plano de Testes de Usabilidade</a></li>
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planosoftware"> Plano de Testes de Software</a></li>
+
+
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#codigo"> Código (8 ao 13 veio no template padrao)</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#arquitetura"> Arquitetura da Solução</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#template"> Template Padrão da Aplicação</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#funcionalidade"> Programação de Funcionalidades</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planosoftware"> Plano de Testes de Software</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registrosoftware"> Registro de Testes de Software</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#planoteste"> Plano de Testes de Usabilidade</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#registroteste"> Registro de Testes de Usabilidade</a></li>
+
 
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#apresentacao"> Apresentação do Projeto</a></li>
 
@@ -303,29 +311,23 @@ Figura 1 - Diagrama de caso de uso
 
 </div>
 
-## <a name="codigo">Código</a>
 
-### <a name="metodologia">Metodologia</a>
+##  <a name="analise">Análise</a>
 
-...
-
-
-### <a name="analise">Análise</a>
-
-#### <a name="diagramaclasse">Diagrama de Classes</a>
+### <a name="diagramaclasse">Diagrama de Classes</a>
 
 ...
 
 
-#### <a name="merconceitual">Modelo de Dados</a>
+### <a name="merconceitual">Modelo de Dados</a>
 
 O modelo de dados desempenha um papel fundamental no projeto de sistemas de banco de dados, facilitando a compreensão e a representação dos dados. Neste contexto, exploraremos o Modelo Entidade-Relacionamento (ER), examinando sua aplicação tanto no Projeto Conceitual, que foca na modelagem abstrata de conceitos de negócios, quanto no Projeto da Base de Dados, que se concentra na implementação técnica desses conceitos em sistemas de gerenciamento de banco de dados.
 
-##### <a name="merconceitual">Modelo Entidade Relacionamento - Projeto Conceitual</a>
+#### <a name="merconceitual">Modelo Entidade Relacionamento - Projeto Conceitual</a>
 
 O modelo ER é aplicado de forma conceitual para representar as entidades, atributos e relacionamentos essenciais deste sistema de gerenciamento de tarefas, fornecendo uma visão abstrata e clara de sua estrutura de dados.
 
-###### Entidades
+##### Entidades
 
 * Usuários:
    - ID (Chave Primária): Identificador único do usuário.
@@ -351,7 +353,7 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
  
      
  
-###### Diagrama ER
+##### Diagrama ER
 
 O Diagrama ER representa graficamente na figura 2, o Projeto Conceitual do Modelo Entidade-Relacionamento:
 
@@ -363,11 +365,11 @@ Figura 2 - Diagrama ER
 
 </div>
 
-##### <a name="projetobd">Projeto da Base de Dados</a>
+#### <a name="projetobd">Projeto da Base de Dados</a>
 
 Nesta seção, apresentaremos o projeto da base de dados, incluindo o modelo lógico, modelo físico, a sintaxe dos scripts e as regras de segurança implementadas para nosso sistema de gerenciamento de tarefas. 
 
-###### Modelo Lógico
+##### Modelo Lógico
 
 Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ para armazenar informações sobre usuários, metas e tarefas. O modelo lógico do banco de dados é descrito da seguinte forma:
 
@@ -397,7 +399,7 @@ Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ 
 
 
 
-###### Modelo Físico
+##### Modelo Físico
 
 A implementação do banco de dados foi feita usando o Sistema de Gerenciamento de Banco de Dados MySQL. Aqui estão as tabelas e suas colunas correspondentes:
 
@@ -437,11 +439,11 @@ CREATE TABLE Tarefas (
 );
 ```
 
-###### Sintaxe dos Scripts
+##### Sintaxe dos Scripts
 
 Os scripts SQL usados para criar as tabelas no banco de dados MySQL estão incluídos nas seções "Modelo Físico" acima. Além disso, outros scripts, como inserção, atualização e exclusão de dados, podem ser desenvolvidos conforme necessário para a funcionalidade da aplicação.
 
-###### Regras de Segurança
+##### Regras de Segurança
 
 A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas regras de segurança que implementamos:
 
@@ -463,18 +465,53 @@ A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas r
 * Auditoria de Acesso:
    	- Implementamos logs de auditoria para rastrear acessos e atividades no sistema.
 	  
+Garantir a segurança e integridade dos dados é fundamental para o sucesso do nosso projeto de gerenciamento de tarefas.
+
+## <a name="metodologia">Metodologia</a>
+1
+### <a name="metodologia">Metodologia</a>
+1.1
+
+## <a name="projetosolucao">Projeto da Solução</a>
+1
 
 ### <a name="interface">Projeto de Interface</a>
+1.1
 
-...
+### <a name="wireframe">Wireframe</a>
+1.2
 
-### <a name="arquitetura">Arquitetura da Solução</a>
-### <a name="template">Template Padrão da Aplicação</a>
-### <a name="funcionalidade">Programação de Funcionalidades</a>
-### <a name="planosoftware">Plano de Testes de Software</a>
-### <a name="registrosoftware">Registro de Testes de Software</a>
+## <a name="planoteste">Plano de Testes de Usabilidade</a>
+1
+
 ### <a name="planoteste">Plano de Testes de Usabilidade</a>
-### <a name="registroteste">Registro de Testes de Usabilidade</a>
+1.1
+
+## <a name="planosoftware">Plano de Testes de Software</a>
+1
+
+### <a name="planosoftware">Plano de Testes de Software</a>
+1.1
+
+
+## <a name="codigo">Código</a>
+1
+
+## <a name="arquitetura">Arquitetura da Solução</a>
+1
+
+## <a name="template">Template Padrão da Aplicação</a>
+1
+
+## <a name="funcionalidade">Programação de Funcionalidades</a>
+1
+
+## <a name="registroteste">Registro de Testes de Usabilidade</a>
+1
+
+## <a name="registrosoftware">Registro de Testes de Software</a>
+1
+
 
 ## <a name="apresentacao">Apresentação</a>
 
