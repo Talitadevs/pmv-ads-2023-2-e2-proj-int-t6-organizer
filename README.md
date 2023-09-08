@@ -37,10 +37,9 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacao"> Documentação</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#documentacaocontexto"> Documentação de Contexto</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#especificacao"> Especificação do Projeto</a></li>
-
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#codigo"> Código</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#metodologia"> Metodologia</a></li>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#modelodados"> Modelo de Dados</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#modelodados"> Análise</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#interface"> Projeto de Interface</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#arquitetura"> Arquitetura da Solução</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/README.md#template"> Template Padrão da Aplicação</a></li>
@@ -308,15 +307,23 @@ Figura 1 - Diagrama de caso de uso
 
 ### <a name="metodologia">Metodologia</a>
 
-### <a name="modelodados">Modelo de Dados</a>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+### <a name="analise">Análise</a>
+
+#### <a name="diagramaclasse">Diagrama de Classes</a>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+#### <a name="merconceitual">Modelo de Dados</a>
 
 O modelo de dados desempenha um papel fundamental no projeto de sistemas de banco de dados, facilitando a compreensão e a representação dos dados. Neste contexto, exploraremos o Modelo Entidade-Relacionamento (ER), examinando sua aplicação tanto no Projeto Conceitual, que foca na modelagem abstrata de conceitos de negócios, quanto no Projeto da Base de Dados, que se concentra na implementação técnica desses conceitos em sistemas de gerenciamento de banco de dados.
 
-#### <a name="merconceitual">Modelo Entidade Relacionamento - Projeto Conceitual</a>
+##### <a name="merconceitual">Modelo Entidade Relacionamento - Projeto Conceitual</a>
 
-No Modelo Entidade Relacionamento (Conceitual) a seguir, exploraremos como o modelo ER é aplicado de forma conceitual para representar as entidades, atributos e relacionamentos essenciais deste sistema de gerenciamento de tarefas, fornecendo uma visão abstrata e clara de sua estrutura de dados.
+O modelo ER é aplicado de forma conceitual para representar as entidades, atributos e relacionamentos essenciais deste sistema de gerenciamento de tarefas, fornecendo uma visão abstrata e clara de sua estrutura de dados.
 
-##### Entidades
+###### Entidades
 
 * Usuários:
    - ID (Chave Primária): Identificador único do usuário.
@@ -339,14 +346,126 @@ No Modelo Entidade Relacionamento (Conceitual) a seguir, exploraremos como o mod
    - Data de Vencimento: Data limite para a conclusão da tarefa.
    - Status: Estado atual da tarefa (por exemplo, pendente, concluída, etc.).
    - ID_Meta (Chave Estrangeira): Chave estrangeira que associa a tarefa a uma meta.
+ 
+     
+ 
+###### Diagrama ER
 
-#### <a name="projetobd">Projeto da Base de Dados - Diagrama ER</a>
+O Diagrama ER representa graficamente na figura 2, o Projeto Conceitual do Modelo Entidade-Relacionamento:
 
-Após termos definido o Modelo Entidade-Relacionamento no Projeto Conceitual, agora vamos apresentá-lo no diagrama ER.
+<div align="center">
+
+Figura 2 - Diagrama ER
 
 ![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/src/img/diagrama_ER.png)
 
+</div>
+
+##### <a name="projetobd">Projeto da Base de Dados</a>
+
+Nesta seção, apresentaremos o projeto da base de dados, incluindo o modelo lógico, modelo físico, a sintaxe dos scripts e as regras de segurança implementadas para nosso sistema de gerenciamento de tarefas. 
+
+###### Modelo Lógico
+
+Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ para armazenar informações sobre usuários, metas e tarefas. O modelo lógico do banco de dados é descrito da seguinte forma:
+
+* Tabela **Usuarios**
+	- ID (Chave Primária): Identificador único do usuário.
+	- Nome: Nome do usuário.
+	- Email: Endereço de email do usuário (único).
+	- Senha: Senha de acesso ao sistema (criptografada).
+	- DataRegistro: Data de registro do usuário no sistema.
+
+* Tabela **Metas**
+	- ID (Chave Primária): Identificador único da meta.
+	- Nome: Nome da meta.
+	- DataInicio: Data de início planejada para a meta.
+	- DataConclusao: Data de conclusão planejada para a meta.
+	- Status: Estado atual da meta (por exemplo, em andamento, concluída, etc.).
+	- ID_Usuario (Chave Estrangeira): Chave estrangeira que associa a meta a um usuário.
+
+* Tabela **Tarefas**
+	- ID (Chave Primária): Identificador único da tarefa.
+	- Nome: Nome da tarefa.
+	- DataVencimento: Data limite para a conclusão da tarefa.
+	- Status: Estado atual da tarefa (por exemplo, pendente, concluída, etc.).
+	- ID_Meta (Chave Estrangeira): Chave estrangeira que associa a tarefa a uma meta.
+
+> ¹<sub>MySQL é um SGBD de código aberto que é amplamente utilizado em muitos contextos, incluindo ambientes educacionais, aplicativos da web e projetos de pequena escala. Ele atende aos critérios de gratuidade e é adequado para um trabalho escolar. (DEVMEDIA;2023)</sub>
+
+
+
+###### Modelo Físico
+
+A implementação do banco de dados foi feita usando o Sistema de Gerenciamento de Banco de Dados MySQL. Aqui estão as tabelas e suas colunas correspondentes:
+
+* Tabela **Usuarios**
+```
+CREATE TABLE Usuarios (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    Senha VARCHAR(255) NOT NULL,
+    DataRegistro DATE NOT NULL
+);
+```
+
+* Tabela **Metas**
+```
+CREATE TABLE Metas (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(255) NOT NULL,
+    DataInicio DATE NOT NULL,
+    DataConclusao DATE NOT NULL,
+    Status VARCHAR(50) NOT NULL,
+    ID_Usuario INT NOT NULL,
+    FOREIGN KEY (ID_Usuario) REFERENCES Usuarios(ID)
+);
+```
+
+* Tabela **Tarefas**
+```
+CREATE TABLE Tarefas (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(255) NOT NULL,
+    DataVencimento DATE NOT NULL,
+    Status VARCHAR(50) NOT NULL,
+    ID_Meta INT NOT NULL,
+    FOREIGN KEY (ID_Meta) REFERENCES Metas(ID)
+);
+```
+
+###### Sintaxe dos Scripts
+
+Os scripts SQL usados para criar as tabelas no banco de dados MySQL estão incluídos nas seções "Modelo Físico" acima. Além disso, outros scripts, como inserção, atualização e exclusão de dados, podem ser desenvolvidos conforme necessário para a funcionalidade da aplicação.
+
+###### Regras de Segurança
+
+A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas regras de segurança que implementamos:
+
+* Autenticação de Usuários:
+	- A autenticação de usuários é obrigatória para acessar o sistema.
+	- As senhas são armazenadas no banco de dados de forma 
+  
+* Controle de Acesso:
+   	- Apenas usuários autenticados têm acesso às informações cadastradas.
+	- A integridade referencial é usada para garantir que os usuários só possam editar ou excluir informações que pertencem a eles.
+ - 
+* Restrições de Dados:
+   	- Restrições de integridade referencial são aplicadas para manter a consistência dos dados.
+	- A utilização de consultas parametrizadas ajuda a evitar injeção de SQL.
+
+* Proteção contra Ataques:
+   	- Implementamos medidas de segurança para proteger contra ataques de força bruta, XSS (Cross-Site Scripting), CSRF (Cross-Site Request Forgery) e outros ataques comuns.
+	  
+* Auditoria de Acesso:
+   	- Implementamos logs de auditoria para rastrear acessos e atividades no sistema.
+	  
+
 ### <a name="interface">Projeto de Interface</a>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 ### <a name="arquitetura">Arquitetura da Solução</a>
 ### <a name="template">Template Padrão da Aplicação</a>
 ### <a name="funcionalidade">Programação de Funcionalidades</a>
@@ -365,3 +484,7 @@ O vídeo localizado na pasta "presentation", demonstra de forma sintetizada o pr
 A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
 * PMI (Project Management Institute). (2017). Research on global project management. Disponível em: www.pmi.org/-/media/pmi/documents/public/pdf/learning/thought-leadership/pulse/pulse-of-the-profession-2017.pdf?rev=fd357a954d9446fdbf423e510cffa1df&sc_lang_temp=pt-PT. Acesso em: 23 ago.2023.
+
+* Blog Impacta (2017). Como elaborar um projeto de banco de dados. Disponível em: https://www.impacta.com.br/blog/veja-como-elaborar-um-projeto-de-banco-de-dados/. Acesso em: 07/09/2023
+
+* DEVMIDEA (2008). Projeto de Banco de Dados - Parte 1. Disponível em: https://www.devmedia.com.br/projeto-de-banco-de-dados-parte-1/10923. Acessado em 08/09/2023.
