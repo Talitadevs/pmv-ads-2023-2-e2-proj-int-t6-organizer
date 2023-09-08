@@ -387,7 +387,7 @@ Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ 
 	- Email: Endereço de email do usuário (único).
 	- Senha: Senha de acesso ao sistema (criptografada).
 	- DataRegistro: Data de registro do usuário no sistema.
- - 
+
 * Tabela **Categorias**
    	- ID (Chave Primária): Identificador único da categoria.
    	- Nome: Nome da categoria.
