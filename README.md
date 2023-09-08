@@ -335,6 +335,12 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
    - Email: Endereço de email do usuário.
    - Senha: Senha de acesso ao sistema.
    - Data de Registro: Data de registro do usuário no sistema.
+ 
+* Categorias:
+   - ID (Chave Primária): Identificador único da categoria.
+   - Nome: Nome da categoria.
+   - ID_Usuário (Chave Estrangeira): Chave estrangeira que associa o usuário a uma categoria.
+   - Data de Registro: Data de registro da categoria no sistema.
 
 * Metas:
    - ID (Chave Primária): Identificador único da meta.
@@ -342,7 +348,8 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
    - Data de Início: Data de início planejada para a meta.
    - Data de Conclusão: Data de conclusão planejada para a meta.
    - Status: Estado atual da meta (por exemplo, em andamento, concluída, etc.).
-   - ID_Usuário (Chave Estrangeira): Chave estrangeira que associa a meta a um usuário.
+   - ID_Catergoria (Chave Estrangeira): Chave estrangeira que associa a meta a uma categoria.
+   - DataRegistro: Data de registro da meta no sistema.
 
 * Tarefas:
    - ID (Chave Primária): Identificador único da tarefa.
@@ -350,6 +357,7 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
    - Data de Vencimento: Data limite para a conclusão da tarefa.
    - Status: Estado atual da tarefa (por exemplo, pendente, concluída, etc.).
    - ID_Meta (Chave Estrangeira): Chave estrangeira que associa a tarefa a uma meta.
+   - DataRegistro: Data de registro da tarefa no sistema.
  
      
  
@@ -367,7 +375,7 @@ Figura 2 - Diagrama ER
 
 #### <a name="projetobd">Projeto da Base de Dados</a>
 
-Nesta seção, apresentaremos o projeto da base de dados, incluindo o modelo lógico, modelo físico, a sintaxe dos scripts e as regras de segurança implementadas para nosso sistema de gerenciamento de tarefas. 
+Nesta seção, apresentaremos o projeto da base de dados, incluindo o modelo lógico, modelo físico e as regras de segurança implementadas para nosso sistema de gerenciamento de tarefas. 
 
 ##### Modelo Lógico
 
@@ -379,6 +387,12 @@ Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ 
 	- Email: Endereço de email do usuário (único).
 	- Senha: Senha de acesso ao sistema (criptografada).
 	- DataRegistro: Data de registro do usuário no sistema.
+ - 
+* Tabela **Categorias**
+   	- ID (Chave Primária): Identificador único da categoria.
+   	- Nome: Nome da categoria.
+  	- ID_Usuário (Chave Estrangeira): Chave estrangeira que associa o usuário a uma categoria.
+   	- Data de Registro: Data de registro da categoria no sistema.
 
 * Tabela **Metas**
 	- ID (Chave Primária): Identificador único da meta.
@@ -386,7 +400,8 @@ Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ 
 	- DataInicio: Data de início planejada para a meta.
 	- DataConclusao: Data de conclusão planejada para a meta.
 	- Status: Estado atual da meta (por exemplo, em andamento, concluída, etc.).
-	- ID_Usuario (Chave Estrangeira): Chave estrangeira que associa a meta a um usuário.
+	- ID_Categoria (Chave Estrangeira): Chave estrangeira que associa a meta a uma categoria.
+	- DataRegistro: Data de registro da meta no sistema.
 
 * Tabela **Tarefas**
 	- ID (Chave Primária): Identificador único da tarefa.
@@ -394,6 +409,7 @@ Nossa aplicação de gerenciamento de tarefas utiliza um banco de dados MySQL¹ 
 	- DataVencimento: Data limite para a conclusão da tarefa.
 	- Status: Estado atual da tarefa (por exemplo, pendente, concluída, etc.).
 	- ID_Meta (Chave Estrangeira): Chave estrangeira que associa a tarefa a uma meta.
+	- DataRegistro: Data de registro da tarefa no sistema.
 
 > ¹<sub>MySQL é um SGBD de código aberto que é amplamente utilizado em muitos contextos, incluindo ambientes educacionais, aplicativos da web e projetos de pequena escala. Ele atende aos critérios de gratuidade e é adequado para um trabalho escolar. (DEVMEDIA;2023)</sub>
 
@@ -412,6 +428,21 @@ CREATE TABLE Usuarios (
     Senha VARCHAR(255) NOT NULL,
     DataRegistro DATE NOT NULL
 );
+
+```
+* Tabela **Categorias**
+```
+CREATE TABLE Categorias (
+    CategoriaID INT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL
+);
+
+-- Inserir valores fixos na tabela de Categorias
+INSERT INTO Categorias (CategoriaID, Nome) VALUES
+(1, 'Categoria 1'),
+(2, 'Categoria 2'),
+(3, 'Categoria 3');
+
 ```
 
 * Tabela **Metas**
@@ -423,7 +454,9 @@ CREATE TABLE Metas (
     DataConclusao DATE NOT NULL,
     Status VARCHAR(50) NOT NULL,
     ID_Usuario INT NOT NULL,
-    FOREIGN KEY (ID_Usuario) REFERENCES Usuarios(ID)
+    FOREIGN KEY (CategoriaID) REFERENCES Categorias(CategoriaID),
+    Categoria VARCHAR(50) NOT NULL,
+    DataRegistro DATE NOT NULL
 );
 ```
 
@@ -436,12 +469,9 @@ CREATE TABLE Tarefas (
     Status VARCHAR(50) NOT NULL,
     ID_Meta INT NOT NULL,
     FOREIGN KEY (ID_Meta) REFERENCES Metas(ID)
+    DataRegistro DATE NOT NULL
 );
 ```
-
-##### Sintaxe dos Scripts
-
-Os scripts SQL usados para criar as tabelas no banco de dados MySQL estão incluídos nas seções "Modelo Físico" acima. Além disso, outros scripts, como inserção, atualização e exclusão de dados, podem ser desenvolvidos conforme necessário para a funcionalidade da aplicação.
 
 ##### Regras de Segurança
 
@@ -449,21 +479,18 @@ A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas r
 
 * Autenticação de Usuários:
 	- A autenticação de usuários é obrigatória para acessar o sistema.
-	- As senhas são armazenadas no banco de dados de forma 
+	- As senhas são armazenadas no banco de dados de forma criptografada usando algoritmos seguros.
   
 * Controle de Acesso:
-   	- Apenas usuários autenticados têm acesso às informações cadastradas.
-	- A integridade referencial é usada para garantir que os usuários só possam editar ou excluir informações que pertencem a eles.
+   	- Apenas usuários autenticados têm acesso às informações cadastradas, visando o sigilo/confidencialidade dos dados.
+	- O tópico integridade está sendo tratado ao garantirmos que os usuários só possam editar ou excluir informações que pertencem a eles.
 
-* Restrições de Dados:
+* Restrições de Dados (Disponibilidade):
    	- Restrições de integridade referencial são aplicadas para manter a consistência dos dados.
-	- A utilização de consultas parametrizadas ajuda a evitar injeção de SQL.
-
-* Proteção contra Ataques:
-   	- Implementamos medidas de segurança para proteger contra ataques de força bruta, XSS (Cross-Site Scripting), CSRF (Cross-Site Request Forgery) e outros ataques comuns.
-	  
+	- A utilização de consultas parametrizadas ajuda a evitar injeção de SQL (ataque cibernético).
+  
 * Auditoria de Acesso:
-   	- Implementamos logs de auditoria para rastrear acessos e atividades no sistema.
+   	- Implementamos logs de auditoria para rastrear acessos e atividades no sistema (recurso nativo mySQL).
 	  
 Garantir a segurança e integridade dos dados é fundamental para o sucesso do nosso projeto de gerenciamento de tarefas.
 
