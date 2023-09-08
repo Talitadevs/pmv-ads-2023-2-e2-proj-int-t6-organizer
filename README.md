@@ -56,7 +56,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 ## <a name="documentacao">Documentação</a>
 
-### <a name="documentacaocontexto">Documentaçãoo de Contexto</a>
+### <a name="documentacaocontexto">Documentação de Contexto</a>
 
 &nbsp;&nbsp; Na atualidade, onde a busca pela produtividade é persistente e as demandas pessoais, profissionais e acadêmicas estão em constante expansão, surge uma necessidade de eficácia na gestão de tarefas. Cada vez mais, indivíduos se veem imersos em um mar de compromissos e metas a serem alcançadas, enquanto o tempo permanece inalterado. Nesse cenário, a informação se estabelece como a moeda de troca para o sucesso, e a capacidade de gerenciar as tarefas assume uma relevância ímpar para atingir objetivos concretos.
 
@@ -307,13 +307,15 @@ Figura 1 - Diagrama de caso de uso
 
 ### <a name="metodologia">Metodologia</a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+...
+
 
 ### <a name="analise">Análise</a>
 
 #### <a name="diagramaclasse">Diagrama de Classes</a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+...
+
 
 #### <a name="merconceitual">Modelo de Dados</a>
 
@@ -450,7 +452,7 @@ A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas r
 * Controle de Acesso:
    	- Apenas usuários autenticados têm acesso às informações cadastradas.
 	- A integridade referencial é usada para garantir que os usuários só possam editar ou excluir informações que pertencem a eles.
- - 
+
 * Restrições de Dados:
    	- Restrições de integridade referencial são aplicadas para manter a consistência dos dados.
 	- A utilização de consultas parametrizadas ajuda a evitar injeção de SQL.
@@ -464,7 +466,7 @@ A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas r
 
 ### <a name="interface">Projeto de Interface</a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+...
 
 ### <a name="arquitetura">Arquitetura da Solução</a>
 ### <a name="template">Template Padrão da Aplicação</a>
