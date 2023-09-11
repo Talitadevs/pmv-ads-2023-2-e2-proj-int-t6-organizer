@@ -506,6 +506,25 @@ Garantir a segurança e integridade dos dados é fundamental para o sucesso do n
 1.1
 
 ### <a name="wireframe">Wireframe</a>
+
+![padrao](src/padrao.png)
+
+![login](src/loginpage.png)
+
+![cadastro](src/cadastro.png)
+
+![cadastro](src/senha.png)
+
+![perfil](src/perfil.png)
+
+![home](src/homepage.png)
+
+![newmeta](src/newmeta.png)
+
+![editmeta](src/editmeta.png)
+
+
+
 1.2
 
 ## <a name="planoteste">Plano de Testes de Usabilidade</a>
