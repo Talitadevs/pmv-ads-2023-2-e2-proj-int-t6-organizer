@@ -497,7 +497,7 @@ Garantir a segurança e integridade dos dados é fundamental para o sucesso do n
 ## <a name="metodologia">Metodologia</a>
 A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos, quanto para a organização do time na execução das tarefas do projeto.
 
-### <a name="Relação de ambiente de trabalho">Metodologia</a>
+### <a name="Relação de ambiente de trabalho">Relação de ambiente de trabalho</a>
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 <table border="1" cellspacing="1" cellpadding="1" style="border: thin solid black;">
@@ -533,9 +533,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 </tr>
 
 
- ### <a name="Gestão de código fonte">Metodologia</a>
+ ### <a name="Gestão de código fonte">Gestão de código fonte</a>
 ...
- ### <a name="Gerenciamento do projeto">Metodologia</a>
+ ### <a name="Gerenciamento do projeto">Gerenciamento do Projeto</a>
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
