@@ -558,7 +558,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 * **Done**: este bloco ficam as tarefas finalizadas e que serão entregues;
 
 
-<div align="center">
 
  
 ## <a name="projetosolucao">Projeto da Solução</a>
