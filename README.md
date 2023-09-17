@@ -307,10 +307,9 @@ O diagrama de caso de uso está representado na figura 1, a seguir:
 
 Figura 1 - Diagrama de caso de uso
 
-![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/src/img/Diagrma_Caso_de_Uso.png)
 ![Diagarama_uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/assets/128756585/5dfd0a8d-ee44-4780-8ad3-5ac92625b13b)
 
-
+</div>
 
 ##  <a name="analise">Análise</a>
 
