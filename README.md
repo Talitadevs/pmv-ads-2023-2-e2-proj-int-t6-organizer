@@ -495,10 +495,66 @@ A segurança dos dados é uma prioridade em nosso projeto. Aqui estão algumas r
 Garantir a segurança e integridade dos dados é fundamental para o sucesso do nosso projeto de gerenciamento de tarefas.
 
 ## <a name="metodologia">Metodologia</a>
-1
-### <a name="metodologia">Metodologia</a>
-1.1
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos, quanto para a organização do time na execução das tarefas do projeto.
 
+### <a name="Relação de ambiente de trabalho">Metodologia</a>
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+
+<table border="1" cellspacing="1" cellpadding="1" style="border: thin solid black;">
+
+<tr>
+	<td>Ambiente</td>
+	<td>Plataforma</td>
+	<td>Link de acesso</td>
+</tr>
+
+<tr>
+	<td>Repositório de código fonte</td>
+	<td>GitHub</td>
+	<td>https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer </td>
+</tr>
+
+<tr>
+	<td>Documentos do projeto</td>
+	<td>Google Drive</td>
+	<td>https://docs.google.com/document/d/1_oxw2qohpM9MPGRCeaHRGZXZK-6mOwQC/edit </td>
+</tr>
+
+<tr>
+	<td>Projeto de Interface e  Wireframes</td>
+	<td>Canvas</td>
+	<td>https://www.canva.com/design/DAFtt39NdXM/GdCX-UcgNrdmlcKbljwVYQ/edit </td>
+</tr>
+
+<tr>
+	<td>Gerenciamento do Projeto</td>
+	<td>GitHub</td>
+	<td>https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/583</td>
+</tr>
+
+
+ ### <a name="Gestão de código fonte">Metodologia</a>
+...
+ ### <a name="Gerenciamento do projeto">Metodologia</a>
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+ 	A equipe está organizada da seguinte maneira:
+* Scrum Master: Matheus Soares
+* Product Owner: Talita Fernandes
+* Equipe de Desenvolvimento: Raquel Nonato
+* Equipe de Design: Irene Aparecida
+* Equipe de Quality Assurance: Maria de Lourdes
+	Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
+* Recursos: este bloco mantém o template a ser seguido nas tarefas a serem executadas;
+* Backlog: neste bloco é listada todas as tarefas que devem ser executadas durante o desenvolvimento do projeto;
+* To Do: neste bloco fica a Sprint a ser trabalhada e é definido quem irá trabalhar nela;
+* Doing: aqui ficarão as tarefas que estão sendo sendo executadas;
+* Test: as tarefas prontas devem ser arrastadas para esse bloco para serem testadas e passam pelo controle de qualidade;
+* Done: neste bloco ficam as tarefas finalizadas e que serão entregues.
+* Locked: neste bloco ficam as tarefas que não podem ser concluídas e com ela uma observação explicando a razão.
+
+ 
 ## <a name="projetosolucao">Projeto da Solução</a>
 1
 
