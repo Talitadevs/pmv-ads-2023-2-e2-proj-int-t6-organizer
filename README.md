@@ -531,28 +531,34 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 	<td>GitHub</td>
 	<td>https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/583</td>
 </tr>
-
+</table>
 
  ### <a name="Gestão de código fonte">Gestão de código fonte</a>
 ...
  ### <a name="Gerenciamento do projeto">Gerenciamento do Projeto</a>
 
-A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
-
- 	A equipe está organizada da seguinte maneira:
 * Scrum Master: Matheus Soares
+
 * Product Owner: Talita Fernandes
-* Equipe de Desenvolvimento: Raquel Nonato
-* Equipe de Design: Irene Aparecida
-* Equipe de Quality Assurance: Maria de Lourdes
+
+* Equipe de Desenvolvimento : Raquel Nonato
+
+* Equipe de Design : Irene aparecida
+
+*  Equipe de Quality Assurance: Maria de Lourdes
+
 	Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
-* Recursos: este bloco mantém o template a ser seguido nas tarefas a serem executadas;
-* Backlog: neste bloco é listada todas as tarefas que devem ser executadas durante o desenvolvimento do projeto;
-* To Do: neste bloco fica a Sprint a ser trabalhada e é definido quem irá trabalhar nela;
-* Doing: aqui ficarão as tarefas que estão sendo sendo executadas;
-* Test: as tarefas prontas devem ser arrastadas para esse bloco para serem testadas e passam pelo controle de qualidade;
-* Done: neste bloco ficam as tarefas finalizadas e que serão entregues.
-* Locked: neste bloco ficam as tarefas que não podem ser concluídas e com ela uma observação explicando a razão.
+ 
+* **Backlog**: neste bloco é listada todas as tarefas que devem ser executadas durante o desenvolvimento do projeto;
+
+* **To Do**: neste bloco fica a Sprint a ser trabalhada e é definido quem irá trabalhar nela;
+
+* **In Progress**: aqui ficarão as tarefas que estão sendo sendo executadas;
+
+* **Done**: este bloco ficam as tarefas finalizadas e que serão entregues;
+
+
+<div align="center">
 
  
 ## <a name="projetosolucao">Projeto da Solução</a>
