@@ -308,7 +308,7 @@ O diagrama de caso de uso está representado na figura 1, a seguir:
 Figura 1 - Diagrama de caso de uso
 
 ![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/src/img/Diagrma_Caso_de_Uso.png)
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/f4599854f9b093140017c55d9c3fd86bb1c9b03e/src/img/Diagarama_uso.png
 </div>
 
 
@@ -557,6 +557,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 * **Done**: este bloco ficam as tarefas finalizadas e que serão entregues;
 
+O quadro desenvolvido pelo grupo na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/NlHDUwsx/organizer e é apresentado, no estado atual, na Figura x (tela do trello utilizada pelo grupo).
 
 
  
