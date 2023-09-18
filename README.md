@@ -340,12 +340,6 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
    - Email: Endereço de email do usuário.
    - Senha: Senha de acesso ao sistema.
    - Data de Registro: Data de registro do usuário no sistema.
- 
-* Categorias:
-   - ID (Chave Primária): Identificador único da categoria.
-   - Nome: Nome da categoria.
-   - ID_Usuário (Chave Estrangeira): Chave estrangeira que associa o usuário a uma categoria.
-   - Data de Registro: Data de registro da categoria no sistema.
 
 * Metas:
    - ID (Chave Primária): Identificador único da meta.
@@ -353,7 +347,7 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
    - Data de Início: Data de início planejada para a meta.
    - Data de Conclusão: Data de conclusão planejada para a meta.
    - Status: Estado atual da meta (por exemplo, em andamento, concluída, etc.).
-   - ID_Catergoria (Chave Estrangeira): Chave estrangeira que associa a meta a uma categoria.
+   - Categoria: Categoriza o tipo da meta entre as três opções possíveis.
    - DataRegistro: Data de registro da meta no sistema.
 
 * Tarefas:
