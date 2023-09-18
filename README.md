@@ -301,7 +301,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ### Diagramas de Casos de Uso
 
-O diagrama de caso de uso está representado na figura 1, a seguir:
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
 <div align="center">
 
@@ -315,8 +315,14 @@ Figura 1 - Diagrama de caso de uso
 
 ### <a name="diagramaclasse">Diagrama de Classes</a>
 
-...
+O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
+<div align="center">
 
+Figura 2 - Diagrama de classes
+
+![Diagrama_classes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/assets/128756585/7100feea-e5b1-41eb-8679-2f9563fb4a6e)
+
+</div>
 
 ### <a name="merconceitual">Modelo de Dados</a>
 
@@ -366,7 +372,7 @@ O Diagrama ER representa graficamente na figura 2, o Projeto Conceitual do Model
 
 <div align="center">
 
-Figura 2 - Diagrama ER
+Figura 3 - Diagrama ER
 
 ![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/blob/main/src/img/diagrama_ER.png)
 
@@ -563,8 +569,17 @@ O quadro desenvolvido pelo grupo na ferramenta de gerenciamento de projetos est�
 ## <a name="projetosolucao">Projeto da Solução</a>
 1
 
-### <a name="interface">Projeto de Interface</a>
-1.1
+### <a name="interface">Diagrama de fluxo</a>
+
+Um diagrama de fluxo, também conhecido como fluxograma, é uma representação gráfica que visualiza a sequência de passos ou etapas em um processo, sistema ou algoritmo. Ele utiliza símbolos e setas para mostrar a ordem das operações e as relações entre elas.
+
+<div align="center">
+
+Figura 4 - Diagrama de fluxo
+
+![Diagrama_fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t6-organizer/assets/128756585/c7579310-c24e-44fe-aba7-9d3976713049)
+
+</div>
 
 ### Wireframe Interativo
 Conforme o diagrama de fluxo do projeto apresentado anteriormente, as telas do sistema são detalhadas nos itens subsequentes. Para acessar o wireframe interativo, acesse o ambiente https://l1nk.dev/6wHyS disponível pela plataforma Canva.
