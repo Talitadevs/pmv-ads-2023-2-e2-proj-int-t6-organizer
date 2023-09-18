@@ -368,7 +368,7 @@ O modelo ER é aplicado de forma conceitual para representar as entidades, atrib
  
 ##### Diagrama ER
 
-O Diagrama ER representa graficamente na figura 2, o Projeto Conceitual do Modelo Entidade-Relacionamento:
+O Diagrama ER representa graficamente na figura 3, o Projeto Conceitual do Modelo Entidade-Relacionamento:
 
 <div align="center">
 
@@ -562,7 +562,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 * **Done**: este bloco ficam as tarefas finalizadas e que serão entregues;
 
-O quadro desenvolvido pelo grupo na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/NlHDUwsx/organizer e é apresentado, no estado atual, na Figura x (tela do trello utilizada pelo grupo).
+O quadro desenvolvido pelo grupo na ferramenta de gerenciamento de projetos está disponível através da URL [Kanban GitHub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/583). e é apresentado, no estado atual, na Figura x (tela do trello utilizada pelo grupo).
 
 
  
